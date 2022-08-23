@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light/Dark Mode </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+                <ul class="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contant">CONTANT</a></li>
+                </ul>
+            
+            <div class="mode">
+                <span id="mode-id">Light Mode</span>
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="home">
+        <div class="welcome-container">
+            <h1>Custom Title Here</h1>
+            <h2>Welcome to your website</h2>
+        </div>
+    </section>
+    <!--Main Section -->
+    <section class="main-section" id="about">
+        <div class="main-container">
+            <h1>Undraw Illustrations</h1>
+            <div class="items">
+                <div class="item" id="item1">
+                    <h2>Web Innovation</h2>
+                    <img src="./img/undraw_proud_coder_light.svg" id="img1" alt="">
+                </div>
+                <div class="item" id="item2">
+                    <h2>Problem Solving</h2>
+                    <img src="./img/undraw_feeling_proud_light.svg" id="img2" alt="">
+                </div>
+                <div class="item" id="item3">
+                    <h2>High Concept</h2>
+                    <img src="./img/undraw_conceptual_idea_light.svg" id="img3" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Buttons Section -->
+    <section class="buttons-section" id="projects">
+        <div class="buttons-container">
+            <h1>Buttons</h1>
+            <div class="buttons">
+                <button class="button" id="button1">Primary</button>
+                <button class="button" id="button2">Secondary</button>
+                <button class="button" id="button3">Disabled</button>
+                <button class="button" id="button4">Outline</button>
+                <button class="button" id="button5">Alt Outline</button>
+                <button class="button" id="button6">Disabled</button>
+            </div>
+            <p>Lorem ipsum dolor amet consectetur adipisicing elit. Voluptatibus magnam sit alias eos ducimus expedita quam, corporis, blanditiis vel facilis, animi adipisci? Nemo enim quisquam maiores minima, qui omnis. Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam accusamus qui, ab voluptates reprehenderit rerum quo mollitia libero asperiores doloremque dolores, nihil repellat doloribus perspiciatis magni dolore dolorum ipsam!</p>
+        </div>
+    </section>
+    <!-- Contant Section -->
+    <section class="icons-section" id="contant">
+        <div class="icons-container">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-medium"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
